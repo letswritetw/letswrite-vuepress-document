@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: 'https://letswritetw.github.io/letswritetw/dist/img/logo_512.png' }]
   ],
-  dest: 'output',
+  dest: 'docs',
 
   themeConfig: {
     logo: 'https://www.letswrite.tw/wp-content/uploads/2020/08/logo_120.svg',
