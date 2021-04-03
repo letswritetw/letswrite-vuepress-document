@@ -1,0 +1,17 @@
+{
+  "name": "letswrite-vuepress-document",
+  "version": "1.0.0",
+  "description": "Let's Write 用 VuePress 製作說明文件頁面",
+  "main": "index.js",
+  "repository": "https://github.com/letswritetw/letswrite-vuepress-document",
+  "scripts": {
+    "serve": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "author": "Let's Write",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
+
