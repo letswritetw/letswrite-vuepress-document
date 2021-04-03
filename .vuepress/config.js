@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: 'https://letswritetw.github.io/letswritetw/dist/img/logo_512.png' }]
   ],
+  base: '/letswrite-vuepress-document/',
   dest: 'docs',
 
   themeConfig: {
