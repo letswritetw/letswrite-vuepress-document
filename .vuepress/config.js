@@ -10,7 +10,7 @@ module.exports = {
   themeConfig: {
 
     // Logo
-    logo: './../logo.svg',
+    logo: './logo.svg',
 
     // Repository 連結
     repo: 'letswritetw/letswrite-vuepress-document',
