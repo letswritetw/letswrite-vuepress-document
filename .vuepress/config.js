@@ -7,6 +7,8 @@ module.exports = {
   base: '/letswrite-vuepress-document/',
   dest: 'docs',
 
+  theme: 'default-prefers-color-scheme',
+
   themeConfig: {
 
     // Logo
@@ -65,5 +67,14 @@ module.exports = {
         initialOpenGroupIndex: -1 // 選填，預設值是 0
       }
     ]
-  }
+  },
+
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      { 'ga': 'UA-74398300-1' }
+    ],
+    '@vuepress/back-to-top'
+  ]
+
 }

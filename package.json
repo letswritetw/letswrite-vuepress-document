@@ -11,7 +11,9 @@
   "author": "Let's Write",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
 }
-
