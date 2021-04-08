@@ -28,16 +28,22 @@ module.exports = {
       { text: '首頁', link: '/' },
       { text: "Let's Write 官網", link: 'https://www.letswrite.tw', target: '_self' },
       {
-        text: '有第二層選單',
-        ariaLabel: '第二層選單',
+        text: '筆記文分類',
+        ariaLabel: '筆記文分類',
         items: [
-          { text: '選單2-1', link: '/submenu/1/' },
-          { text: '選單2-2', link: '/submenu/2/' },
+          { text: 'API', link: 'https://www.letswrite.tw/category/api/' },
+          { text: 'Front-End', link: 'https://www.letswrite.tw/category/frontend/' },
+          { text: 'Google', link: 'https://www.letswrite.tw/category/google/' },
+          { text: 'Bot', link: 'https://www.letswrite.tw/category/bot/' },
+          { text: 'Vue', link: 'https://www.letswrite.tw/category/vue/' },
+          { text: 'PWA', link: 'https://www.letswrite.tw/category/pwa/' },
+          { text: 'WordPress', link: 'https://www.letswrite.tw/category/wordpress/' },
+          { text: '所有筆記文', link: 'https://www.letswrite.tw/sitemap/' },
           {
-            text: '第二層選單的子標題',
+            text: '請喝咖啡',
             items: [
-              { text: '選單2-3', link: '/submenu/3/' },
-              { text: '選單2-4', link: '/submenu/4/' }
+              { text: '台灣', link: 'https://p.ecpay.com.tw/5ABF9' },
+              { text: 'Foreign', link: 'https://www.buymeacoffee.com/letswrite' }
             ]
           }
         ]
